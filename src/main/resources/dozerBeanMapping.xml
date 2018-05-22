@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <configuration>
+        <stop-on-errors>false</stop-on-errors>
+        <date-format>MM/dd/yyyy HH:mm</date-format>
+        <wildcard>true</wildcard>
+    </configuration>
+    <!--排除映射null值-->
+    <!--
+    <mapping map-null="false">
+        <class-a>top.cfquantum.request.goods.AddGoodsRequest</class-a>
+        <class-b>top.cfquantum.po.goods.Goods</class-b>
+    </mapping>-->
+
+    <!--排除映射空值-->
+    <!--
+    <mapping map-empty-string="false">
+        <class-a>top.cfquantum.request.goods.AddGoodsRequest</class-a>
+        <class-b>top.cfquantum.po.goods.Goods</class-b>
+        <field>
+            <a>status</a>
+            <b>status</b>
+        </field>
+    </mapping>
+    -->
+    <!--
+    <mapping>
+        <class-a>top.cfquantum.po.seller.Seller</class-a>
+        <class-b>top.cfquantum.response.sellers.ClerkListResponse</class-b>
+        <field>
+            <a>id</a>
+            <b>sellerId</b>
+        </field>
+    </mapping>-->
+
+</mappings>
